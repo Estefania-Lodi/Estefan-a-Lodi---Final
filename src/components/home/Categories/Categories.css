@@ -1,0 +1,36 @@
+.cardCenter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardStyle {
+    position: relative;
+    width: 350px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cardStyle:hover .card-img-top {
+    transform: translateY(-10px);
+    transition: transform .3s;
+}
+
+.cardStyle a {
+    text-decoration: none;
+}
+
+.cardStyle .card-img-top {
+    height: 600px;
+    object-fit: cover;
+    border: 3px solid rgb(34, 80, 53);
+}
+
+.btn-container {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
